@@ -1,0 +1,27 @@
+{
+  "name": "static-geo-atlas",
+  "version": "0.0.1",
+  "description": "Static geo Atlas",
+  "files": [
+    "geo-data"
+  ],
+  "scripts": {},
+  "dependencies": {
+    "@turf/turf": "^6.5.0",
+    "geobuf": "^3.0.2",
+    "mapshaper": "^0.5.68",
+    "mvdir": "^1.0.21",
+    "pbf": "^3.2.1",
+    "topojson-server": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvisei/static-geo-atlas.git"
+  },
+  "author": "lvisei",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/lvisei/static-geo-atlas/issues"
+  },
+  "homepage": "https://github.com/lvisei/static-geo-atlas#readme"
+}
