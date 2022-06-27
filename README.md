@@ -2,7 +2,29 @@
 
 Static geo Atlas.
 
-### Steps
+### Usage
+
+Directory
+
+- administrative-data
+- choropleth-data
+  - world
+  - country
+  - province
+  - city
+  - district
+
+```shell
+# cdn
+# geojson
+# https://unpkg.com/static-geo-atlas@latest/geo-data/choropleth-data/world/all_world_country.json
+# topojson
+# https://unpkg.com/static-geo-atlas@latest/geo-data/choropleth-data/world/all_world_country.topo.json
+```
+
+### Development
+
+Steps
 
 1. sync-administrative-list
 2. sync-administrative-tree
