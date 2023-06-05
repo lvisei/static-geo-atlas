@@ -60,7 +60,7 @@ function saveArea(areaList) {
   for (let index = 0; index < areaList.length; index++) {
     const { adcode, level, name, parent, childrenNum } = areaList[index];
     let reuestAdcode = adcode;
-    // 合并重庆城区 500100 重庆郊县 500200 到 500100
+    // 重庆城区(500100)、重庆郊县(500200) 合并到 重庆市(500100)
     if (adcode === 500100) {
       reuestAdcode = 500000;
     }
@@ -116,6 +116,3 @@ for (let index = 0; index < chunkList.length; index++) {
     saveArea(list);
   }, 1000 * 1 * index);
 }
-
-// miss
-// 350427 沙县区;350403 三元区;350625 长泰区;350681 龙海区

@@ -1989,8 +1989,8 @@
                 "name": "固安县",
                 "level": "district",
                 "adcode": 131022,
-                "lng": 116.298745,
-                "lat": 39.4382,
+                "lng": 116.298696,
+                "lat": 39.438797,
                 "childrenNum": 0,
                 "parent": 131000,
                 "title": "固安县"
@@ -3671,8 +3671,8 @@
                 "name": "白云鄂博矿区",
                 "level": "district",
                 "adcode": 150206,
-                "lng": 109.973076,
-                "lat": 41.769701,
+                "lng": 109.973195,
+                "lat": 41.769956,
                 "childrenNum": 0,
                 "parent": 150200,
                 "title": "白云鄂博矿区"
@@ -7427,8 +7427,8 @@
                 "name": "大箐山县",
                 "level": "district",
                 "adcode": 230725,
-                "lng": 129.020597,
-                "lat": 47.02836,
+                "lng": 129.020519,
+                "lat": 47.028313,
                 "childrenNum": 0,
                 "parent": 230700,
                 "title": "大箐山县"
@@ -7437,8 +7437,8 @@
                 "name": "南岔县",
                 "level": "district",
                 "adcode": 230726,
-                "lng": 129.283467,
-                "lat": 47.138034,
+                "lng": 129.283584,
+                "lat": 47.139009,
                 "childrenNum": 0,
                 "parent": 230700,
                 "title": "南岔县"
@@ -7929,8 +7929,8 @@
             "name": "大兴安岭地区",
             "level": "city",
             "adcode": 232700,
-            "lng": 124.117806,
-            "lat": 50.411048,
+            "lng": 124.11786,
+            "lat": 50.41129,
             "childrenNum": 4,
             "parent": 230000,
             "title": "大兴安岭地区",
@@ -11868,12 +11868,22 @@
               {
                 "name": "三元区",
                 "level": "district",
-                "adcode": 350403,
-                "lng": 117.608013,
-                "lat": 26.234032,
+                "adcode": 350404,
+                "lng": 117.646153,
+                "lat": 26.271653,
                 "childrenNum": 0,
                 "parent": 350400,
                 "title": "三元区"
+              },
+              {
+                "name": "沙县区",
+                "level": "district",
+                "adcode": 350405,
+                "lng": 117.792551,
+                "lat": 26.396843,
+                "childrenNum": 0,
+                "parent": 350400,
+                "title": "沙县区"
               },
               {
                 "name": "明溪县",
@@ -11924,16 +11934,6 @@
                 "childrenNum": 0,
                 "parent": 350400,
                 "title": "尤溪县"
-              },
-              {
-                "name": "沙县区",
-                "level": "district",
-                "adcode": 350427,
-                "lng": 117.792551,
-                "lat": 26.396843,
-                "childrenNum": 0,
-                "parent": 350400,
-                "title": "沙县区"
               },
               {
                 "name": "将乐县",
@@ -12140,6 +12140,26 @@
                 "title": "龙文区"
               },
               {
+                "name": "龙海区",
+                "level": "district",
+                "adcode": 350604,
+                "lng": 117.818485,
+                "lat": 24.446839,
+                "childrenNum": 0,
+                "parent": 350600,
+                "title": "龙海区"
+              },
+              {
+                "name": "长泰区",
+                "level": "district",
+                "adcode": 350605,
+                "lng": 117.759119,
+                "lat": 24.625989,
+                "childrenNum": 0,
+                "parent": 350600,
+                "title": "长泰区"
+              },
+              {
                 "name": "云霄县",
                 "level": "district",
                 "adcode": 350622,
@@ -12168,16 +12188,6 @@
                 "childrenNum": 0,
                 "parent": 350600,
                 "title": "诏安县"
-              },
-              {
-                "name": "长泰区",
-                "level": "district",
-                "adcode": 350625,
-                "lng": 117.759119,
-                "lat": 24.625989,
-                "childrenNum": 0,
-                "parent": 350600,
-                "title": "长泰区"
               },
               {
                 "name": "东山县",
@@ -12218,16 +12228,6 @@
                 "childrenNum": 0,
                 "parent": 350600,
                 "title": "华安县"
-              },
-              {
-                "name": "龙海区",
-                "level": "district",
-                "adcode": 350681,
-                "lng": 117.818485,
-                "lat": 24.446839,
-                "childrenNum": 0,
-                "parent": 350600,
-                "title": "龙海区"
               }
             ]
           },
@@ -14043,8 +14043,8 @@
                 "name": "薛城区",
                 "level": "district",
                 "adcode": 370403,
-                "lng": 117.263524,
-                "lat": 34.795339,
+                "lng": 117.286371,
+                "lat": 34.783282,
                 "childrenNum": 0,
                 "parent": 370400,
                 "title": "薛城区"
@@ -14339,8 +14339,8 @@
                 "name": "昌乐县",
                 "level": "district",
                 "adcode": 370725,
-                "lng": 118.841015,
-                "lat": 36.687162,
+                "lng": 118.841035,
+                "lat": 36.688035,
                 "childrenNum": 0,
                 "parent": 370700,
                 "title": "昌乐县"
@@ -18195,7 +18195,7 @@
             "adcode": 429005,
             "lng": 112.900279,
             "lat": 30.401954,
-            "childrenNum": 25,
+            "childrenNum": 24,
             "parent": 420000,
             "title": "潜江市"
           },
@@ -19242,16 +19242,6 @@
                 "title": "冷水滩区"
               },
               {
-                "name": "祁阳市",
-                "level": "district",
-                "adcode": 431121,
-                "lng": 111.840253,
-                "lat": 26.580292,
-                "childrenNum": 0,
-                "parent": 431100,
-                "title": "祁阳市"
-              },
-              {
                 "name": "东安县",
                 "level": "district",
                 "adcode": 431122,
@@ -19330,6 +19320,16 @@
                 "childrenNum": 0,
                 "parent": 431100,
                 "title": "江华瑶族自治县"
+              },
+              {
+                "name": "祁阳市",
+                "level": "district",
+                "adcode": 431181,
+                "lng": 111.840253,
+                "lat": 26.580292,
+                "childrenNum": 0,
+                "parent": 431100,
+                "title": "祁阳市"
               }
             ]
           },
@@ -19973,7 +19973,7 @@
             "adcode": 440400,
             "lng": 113.576892,
             "lat": 22.271644,
-            "childrenNum": 3,
+            "childrenNum": 4,
             "parent": 440000,
             "title": "珠海市",
             "children": [
@@ -20006,6 +20006,16 @@
                 "childrenNum": 0,
                 "parent": 440400,
                 "title": "金湾区"
+              },
+              {
+                "name": "澳门大学横琴校区(由澳门实施管辖)",
+                "level": "district",
+                "adcode": 440499,
+                "lng": 113.548956,
+                "lat": 22.126197,
+                "childrenNum": 0,
+                "parent": 440400,
+                "title": "澳门大学横琴校区(由澳门实施管辖)"
               }
             ]
           },
@@ -20919,7 +20929,7 @@
             "adcode": 441900,
             "lng": 113.751884,
             "lat": 23.021016,
-            "childrenNum": 35,
+            "childrenNum": 32,
             "parent": 440000,
             "title": "东莞市"
           },
@@ -21234,7 +21244,7 @@
               {
                 "name": "横州市",
                 "level": "district",
-                "adcode": 450127,
+                "adcode": 450181,
                 "lng": 109.262448,
                 "lat": 22.681257,
                 "childrenNum": 0,
@@ -22117,8 +22127,8 @@
             "name": "河池市",
             "level": "city",
             "adcode": 451200,
-            "lng": 108.085244,
-            "lat": 24.692906,
+            "lng": 108.63639,
+            "lat": 24.48523,
             "childrenNum": 11,
             "parent": 450000,
             "title": "河池市",
@@ -22543,7 +22553,7 @@
             "adcode": 460400,
             "lng": 109.580812,
             "lat": 19.520948,
-            "childrenNum": 23,
+            "childrenNum": 17,
             "parent": 460000,
             "title": "儋州市"
           },
@@ -22553,7 +22563,7 @@
             "adcode": 469001,
             "lng": 109.516784,
             "lat": 18.774827,
-            "childrenNum": 8,
+            "childrenNum": 7,
             "parent": 460000,
             "title": "五指山市"
           },
@@ -22563,7 +22573,7 @@
             "adcode": 469002,
             "lng": 110.474524,
             "lat": 19.259112,
-            "childrenNum": 16,
+            "childrenNum": 12,
             "parent": 460000,
             "title": "琼海市"
           },
@@ -22573,7 +22583,7 @@
             "adcode": 469005,
             "lng": 110.797473,
             "lat": 19.544234,
-            "childrenNum": 20,
+            "childrenNum": 17,
             "parent": 460000,
             "title": "文昌市"
           },
@@ -22583,7 +22593,7 @@
             "adcode": 469006,
             "lng": 110.392605,
             "lat": 18.793697,
-            "childrenNum": 17,
+            "childrenNum": 12,
             "parent": 460000,
             "title": "万宁市"
           },
@@ -22593,7 +22603,7 @@
             "adcode": 469007,
             "lng": 108.651829,
             "lat": 19.095187,
-            "childrenNum": 12,
+            "childrenNum": 10,
             "parent": 460000,
             "title": "东方市"
           },
@@ -22603,7 +22613,7 @@
             "adcode": 469021,
             "lng": 110.358001,
             "lat": 19.681215,
-            "childrenNum": 13,
+            "childrenNum": 10,
             "parent": 460000,
             "title": "定安县"
           },
@@ -22613,7 +22623,7 @@
             "adcode": 469022,
             "lng": 110.101667,
             "lat": 19.351662,
-            "childrenNum": 10,
+            "childrenNum": 8,
             "parent": 460000,
             "title": "屯昌县"
           },
@@ -22623,7 +22633,7 @@
             "adcode": 469023,
             "lng": 110.007497,
             "lat": 19.738885,
-            "childrenNum": 17,
+            "childrenNum": 11,
             "parent": 460000,
             "title": "澄迈县"
           },
@@ -22633,7 +22643,7 @@
             "adcode": 469024,
             "lng": 109.690508,
             "lat": 19.912025,
-            "childrenNum": 12,
+            "childrenNum": 11,
             "parent": 460000,
             "title": "临高县"
           },
@@ -22643,7 +22653,7 @@
             "adcode": 469025,
             "lng": 109.4429,
             "lat": 19.221641,
-            "childrenNum": 14,
+            "childrenNum": 11,
             "parent": 460000,
             "title": "白沙黎族自治县"
           },
@@ -22653,7 +22663,7 @@
             "adcode": 469026,
             "lng": 109.055783,
             "lat": 19.298139,
-            "childrenNum": 11,
+            "childrenNum": 8,
             "parent": 460000,
             "title": "昌江黎族自治县"
           },
@@ -22663,7 +22673,7 @@
             "adcode": 469027,
             "lng": 109.173384,
             "lat": 18.750063,
-            "childrenNum": 16,
+            "childrenNum": 11,
             "parent": 460000,
             "title": "乐东黎族自治县"
           },
@@ -22673,7 +22683,7 @@
             "adcode": 469028,
             "lng": 110.037553,
             "lat": 18.506045,
-            "childrenNum": 14,
+            "childrenNum": 11,
             "parent": 460000,
             "title": "陵水黎族自治县"
           },
@@ -22683,7 +22693,7 @@
             "adcode": 469029,
             "lng": 109.700279,
             "lat": 18.640339,
-            "childrenNum": 13,
+            "childrenNum": 9,
             "parent": 460000,
             "title": "保亭黎族苗族自治县"
           },
@@ -22693,7 +22703,7 @@
             "adcode": 469030,
             "lng": 109.838423,
             "lat": 19.03327,
-            "childrenNum": 15,
+            "childrenNum": 10,
             "parent": 460000,
             "title": "琼中黎族苗族自治县"
           }
@@ -25034,6 +25044,16 @@
                 "title": "西昌市"
               },
               {
+                "name": "会理市",
+                "level": "district",
+                "adcode": 513402,
+                "lng": 102.244774,
+                "lat": 26.655047,
+                "childrenNum": 0,
+                "parent": 513400,
+                "title": "会理市"
+              },
+              {
                 "name": "木里藏族自治县",
                 "level": "district",
                 "adcode": 513422,
@@ -25062,16 +25082,6 @@
                 "childrenNum": 0,
                 "parent": 513400,
                 "title": "德昌县"
-              },
-              {
-                "name": "会理市",
-                "level": "district",
-                "adcode": 513425,
-                "lng": 102.244774,
-                "lat": 26.655047,
-                "childrenNum": 0,
-                "parent": 513400,
-                "title": "会理市"
               },
               {
                 "name": "会东县",
@@ -25577,8 +25587,8 @@
                 "name": "关岭布依族苗族自治县",
                 "level": "district",
                 "adcode": 520424,
-                "lng": 105.538262,
-                "lat": 25.953502,
+                "lng": 105.538335,
+                "lat": 25.953518,
                 "childrenNum": 0,
                 "parent": 520400,
                 "title": "关岭布依族苗族自治县"
@@ -26097,8 +26107,8 @@
                 "name": "荔波县",
                 "level": "district",
                 "adcode": 522722,
-                "lng": 107.898809,
-                "lat": 25.42379,
+                "lng": 107.88057,
+                "lat": 25.402528,
                 "childrenNum": 0,
                 "parent": 522700,
                 "title": "荔波县"
@@ -27034,6 +27044,16 @@
                 "title": "楚雄市"
               },
               {
+                "name": "禄丰市",
+                "level": "district",
+                "adcode": 532302,
+                "lng": 102.079082,
+                "lat": 25.151061,
+                "childrenNum": 0,
+                "parent": 532300,
+                "title": "禄丰市"
+              },
+              {
                 "name": "双柏县",
                 "level": "district",
                 "adcode": 532322,
@@ -27112,16 +27132,6 @@
                 "childrenNum": 0,
                 "parent": 532300,
                 "title": "武定县"
-              },
-              {
-                "name": "禄丰市",
-                "level": "district",
-                "adcode": 532331,
-                "lng": 102.079082,
-                "lat": 25.151061,
-                "childrenNum": 0,
-                "parent": 532300,
-                "title": "禄丰市"
               }
             ]
           },
@@ -28774,7 +28784,7 @@
               {
                 "name": "凤翔区",
                 "level": "district",
-                "adcode": 610322,
+                "adcode": 610305,
                 "lng": 107.401029,
                 "lat": 34.522167,
                 "childrenNum": 0,
@@ -29624,16 +29634,6 @@
                 "title": "镇坪县"
               },
               {
-                "name": "旬阳市",
-                "level": "district",
-                "adcode": 610928,
-                "lng": 109.361783,
-                "lat": 32.832213,
-                "childrenNum": 0,
-                "parent": 610900,
-                "title": "旬阳市"
-              },
-              {
                 "name": "白河县",
                 "level": "district",
                 "adcode": 610929,
@@ -29642,6 +29642,16 @@
                 "childrenNum": 0,
                 "parent": 610900,
                 "title": "白河县"
+              },
+              {
+                "name": "旬阳市",
+                "level": "district",
+                "adcode": 610981,
+                "lng": 109.361783,
+                "lat": 32.832213,
+                "childrenNum": 0,
+                "parent": 610900,
+                "title": "旬阳市"
               }
             ]
           },
@@ -31623,7 +31633,7 @@
         "adcode": 650000,
         "lng": 87.628579,
         "lat": 43.793301,
-        "childrenNum": 24,
+        "childrenNum": 25,
         "parent": 100000,
         "title": "新疆维吾尔自治区",
         "children": [
@@ -32105,8 +32115,8 @@
                 "name": "阿克苏市",
                 "level": "district",
                 "adcode": 652901,
-                "lng": 80.290429,
-                "lat": 41.185019,
+                "lng": 80.263387,
+                "lat": 41.16755,
                 "childrenNum": 0,
                 "parent": 652900,
                 "title": "阿克苏市"
@@ -32622,6 +32632,16 @@
                 "title": "乌苏市"
               },
               {
+                "name": "沙湾市",
+                "level": "district",
+                "adcode": 654203,
+                "lng": 85.619483,
+                "lat": 44.326267,
+                "childrenNum": 0,
+                "parent": 654200,
+                "title": "沙湾市"
+              },
+              {
                 "name": "额敏县",
                 "level": "district",
                 "adcode": 654221,
@@ -32630,16 +32650,6 @@
                 "childrenNum": 0,
                 "parent": 654200,
                 "title": "额敏县"
-              },
-              {
-                "name": "沙湾市",
-                "level": "district",
-                "adcode": 654223,
-                "lng": 85.619483,
-                "lat": 44.326267,
-                "childrenNum": 0,
-                "parent": 654200,
-                "title": "沙湾市"
               },
               {
                 "name": "托里县",
@@ -32771,7 +32781,7 @@
             "adcode": 659002,
             "lng": 81.280532,
             "lat": 40.547205,
-            "childrenNum": 19,
+            "childrenNum": 25,
             "parent": 650000,
             "title": "阿拉尔市"
           },
@@ -32779,8 +32789,8 @@
             "name": "图木舒克市",
             "level": "city",
             "adcode": 659003,
-            "lng": 79.074762,
-            "lat": 39.868366,
+            "lng": 79.074965,
+            "lat": 39.867776,
             "childrenNum": 10,
             "parent": 650000,
             "title": "图木舒克市"
@@ -32819,8 +32829,8 @@
             "name": "双河市",
             "level": "city",
             "adcode": 659007,
-            "lng": 82.367887,
-            "lat": 44.845935,
+            "lng": 82.35365587,
+            "lat": 44.84052409,
             "childrenNum": 5,
             "parent": 650000,
             "title": "双河市"
@@ -32851,9 +32861,19 @@
             "adcode": 659010,
             "lng": 84.827592,
             "lat": 44.692894,
-            "childrenNum": 4,
+            "childrenNum": 2,
             "parent": 650000,
             "title": "胡杨河市"
+          },
+          {
+            "name": "新星市",
+            "level": "city",
+            "adcode": 659011,
+            "lng": 93.74831,
+            "lat": 42.797043,
+            "childrenNum": 3,
+            "parent": 650000,
+            "title": "新星市"
           }
         ]
       },
@@ -32871,8 +32891,8 @@
         "name": "香港特别行政区",
         "level": "province",
         "adcode": 810000,
-        "lng": 114.173355,
-        "lat": 22.320048,
+        "lng": 114.171203,
+        "lat": 22.277468,
         "childrenNum": 18,
         "parent": 100000,
         "title": "香港特别行政区"
@@ -32881,8 +32901,8 @@
         "name": "澳门特别行政区",
         "level": "province",
         "adcode": 820000,
-        "lng": 113.54909,
-        "lat": 22.198951,
+        "lng": 113.543076,
+        "lat": 22.186927,
         "childrenNum": 8,
         "parent": 100000,
         "title": "澳门特别行政区"

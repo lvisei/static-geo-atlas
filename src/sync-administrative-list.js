@@ -2,7 +2,10 @@ const fs = require("fs");
 const { TEMP_DIR } = require("./constants");
 
 const AdministrativeTree = JSON.parse(
-  fs.readFileSync("config/administrative-tree-amap.json", "utf8")
+  // data form lbs.amap.com
+  // https://lbs.amap.com/api/webservice/guide/api/district
+  // restapi.amap.com/v3/config/district?key=您的key&keywords=&subdistrict=3&extensions=base
+  fs.readFileSync("config/administrative-tree-amap-v3.json", "utf8")
 );
 
 const tree2list = (tree, list = [], parent = null) => {
