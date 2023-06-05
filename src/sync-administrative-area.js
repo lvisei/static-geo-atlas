@@ -58,7 +58,8 @@ const areaList = AdministrativeList.filter(({ level }) => level === "district");
 
 function saveArea(areaList) {
   for (let index = 0; index < areaList.length; index++) {
-    const { adcode, level, name, parent, childrenNum } = areaList[index];
+    const { adcode, level, name, pinyin, parent, childrenNum } =
+      areaList[index];
     let reuestAdcode = adcode;
     // 合并重庆城区 500100 重庆郊县 500200 到 500100
     if (adcode === 500100) {
@@ -78,6 +79,7 @@ function saveArea(areaList) {
           adcode,
           level,
           name,
+          pinyin,
           parent: { adcode: parent },
           childrenNum,
           center: center.split(",").map(Number),
