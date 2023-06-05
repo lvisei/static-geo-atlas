@@ -29,14 +29,16 @@ Map["100000_country_district"] = districtList.map(({ adcode }) => adcode);
 /**
  * province
  **/
-//  xxx_province_city
 provinceList.forEach(({ adcode }) => {
+  //  xxx_province_province
   Map[`${adcode}_province_province`] = [adcode];
 
+  //  xxx_province_city
   Map[`${adcode}_province_city`] = cityList
     .filter(({ parent }) => parent === adcode)
     .map(({ adcode }) => adcode);
 
+  //  xxx_province_district
   const citys = cityList
     .filter(({ parent }) => parent === adcode)
     .map(({ adcode }) => adcode);
@@ -48,9 +50,10 @@ provinceList.forEach(({ adcode }) => {
 /**
  * city
  **/
-//  xxx_city_district
 cityList.forEach(({ adcode }) => {
+  //  xxx_city_city
   Map[`${adcode}_city_city`] = [adcode];
+  //  xxx_city_district
   Map[`${adcode}_city_district`] = districtList
     .filter(({ parent }) => parent === adcode)
     .map(({ adcode }) => adcode);
