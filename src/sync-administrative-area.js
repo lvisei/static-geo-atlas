@@ -54,7 +54,14 @@ function requestArea(code) {
   });
 }
 
-const areaList = AdministrativeList.filter(({ level }) => level === "district");
+const areaList = AdministrativeList.filter(
+  ({ level, adcode }) => level !== "country" || adcode === 100000
+);
+// .filter(({ level }) => level === "country")
+// .filter(({ level }) => level === "province")
+// .filter(({ level }) => level === "city")
+// .filter(({ level }) => level === "district")
+// .slice(2500);
 
 function saveArea(areaList) {
   for (let index = 0; index < areaList.length; index++) {
@@ -110,7 +117,7 @@ function chunk(list, num = 1) {
   return result;
 }
 
-const chunkList = chunk(areaList, 50);
+const chunkList = chunk(areaList, 10);
 
 for (let index = 0; index < chunkList.length; index++) {
   const list = chunkList[index];
