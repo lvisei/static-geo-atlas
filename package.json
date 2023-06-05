@@ -1,6 +1,6 @@
 {
   "name": "static-geo-atlas",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Static geo Atlas",
   "files": [
     "geo-data"
