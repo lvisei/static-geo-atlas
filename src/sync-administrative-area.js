@@ -1,11 +1,19 @@
 const fs = require("fs");
 const https = require("https");
 const turf = require("@turf/turf");
+const pinyin = require("node-pinyin");
 const { AMAP_KEY, TEMP_DIR } = require("./constants");
 
 const AdministrativeList = JSON.parse(
   fs.readFileSync(`${TEMP_DIR}/administrative-list.json`, "utf8")
 );
+
+function getPinyin(text) {
+  return pinyin(text, {
+    heteronym: false,
+    style: "normal",
+  }).join("");
+}
 
 function httpRequest(params, postData) {
   return new Promise(function (resolve, reject) {
@@ -78,6 +86,7 @@ function saveArea(areaList) {
           adcode,
           level,
           name,
+          pinyin: getPinyin(name),
           parent: { adcode: parent },
           childrenNum,
           center: center.split(",").map(Number),

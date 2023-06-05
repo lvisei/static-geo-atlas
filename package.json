@@ -11,6 +11,7 @@
     "geobuf": "^3.0.2",
     "mapshaper": "^0.5.68",
     "mvdir": "^1.0.21",
+    "node-pinyin": "^0.2.3",
     "pbf": "^3.2.1",
     "topojson-server": "^3.0.1"
   },
