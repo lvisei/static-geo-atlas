@@ -1,19 +1,11 @@
 const fs = require("fs");
 const https = require("https");
 const turf = require("@turf/turf");
-const pinyin = require("node-pinyin");
 const { AMAP_KEY, TEMP_DIR } = require("./constants");
 
 const AdministrativeList = JSON.parse(
   fs.readFileSync(`${TEMP_DIR}/administrative-list.json`, "utf8")
 );
-
-function getPinyin(text) {
-  return pinyin(text, {
-    heteronym: false,
-    style: "normal",
-  }).join("");
-}
 
 function httpRequest(params, postData) {
   return new Promise(function (resolve, reject) {
@@ -66,7 +58,8 @@ const areaList = AdministrativeList.filter(({ level }) => level === "district");
 
 function saveArea(areaList) {
   for (let index = 0; index < areaList.length; index++) {
-    const { adcode, level, name, parent, childrenNum } = areaList[index];
+    const { adcode, level, name, pinyin, parent, childrenNum } =
+      areaList[index];
     let reuestAdcode = adcode;
     // 合并重庆城区 500100 重庆郊县 500200 到 500100
     if (adcode === 500100) {
@@ -86,7 +79,7 @@ function saveArea(areaList) {
           adcode,
           level,
           name,
-          pinyin: getPinyin(name),
+          pinyin,
           parent: { adcode: parent },
           childrenNum,
           center: center.split(",").map(Number),

@@ -1,4 +1,5 @@
 const fs = require("fs");
+const pinyin = require("node-pinyin");
 const { TEMP_DIR } = require("./constants");
 
 const AdministrativeTree = JSON.parse(
@@ -69,7 +70,7 @@ const tree2list = (tree, list = [], parent = null) => {
   return list;
 };
 
-const AdministrativeList = tree2list(AdministrativeTree);
+let AdministrativeList = tree2list(AdministrativeTree);
 
 // 填补城市行政级别区域空白(省份行政级别)
 // 台湾省 710000 香港特别行政区 810000 澳门特别行政区 820000
@@ -107,6 +108,18 @@ const CountryList = AllWorldCountry.features
   })
   .filter(Boolean);
 AdministrativeList.push(...CountryList);
+
+// add pinyin
+const getPinyin = (text) => {
+  return pinyin(text, {
+    heteronym: false,
+    style: "normal",
+  }).join("");
+};
+AdministrativeList = AdministrativeList.map((item) => ({
+  ...item,
+  pinyin: getPinyin(item.name),
+}));
 
 console.log(
   "province: ",
